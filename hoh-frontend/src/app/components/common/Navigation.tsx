@@ -21,7 +21,7 @@ const navLinks = [
   { title: "Dentist", url: "/contact" },
   { title: "Pharmacist", url: "/pharmacist" },
   { title: "Nurse", url: "/nurse" },
-  { title: "Physiotherapist", url: "/physiotheraapist" },
+  { title: "Physiotherapist", url: "/physiotherapist" },
   { title: "Technicians", url: "/technicians" },
   { title: "Networks", url: "/networks" },
 ];
@@ -50,7 +50,7 @@ function Navigation() {
             <LogoSvg />
             <div className="flex flex-col ">
               <h1 className=" font-bold  md:text-[20px] md:leading-[28px] whitespace-nowrap text-[#212529] ">
-                Heros
+                Heroes
               </h1>
               <h1 className=" font-bold  md:text-[20px] md:leading-[28px] whitespace-nowrap text-[#212529] ">
                 of
