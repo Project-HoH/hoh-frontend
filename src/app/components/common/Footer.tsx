@@ -32,9 +32,9 @@ const Footer = () => {
         <a href="#courses" className="hover:text-gray-300 transition-colors">
           Courses
         </a>
-        <a href="#socials" className="hover:text-gray-300 transition-colors">
+        {/* <a href="#socials" className="hover:text-gray-300 transition-colors">
           Socials
-        </a>
+        </a> */}
         <a href="#mission" className="hover:text-gray-300 transition-colors">
           Mission
         </a>

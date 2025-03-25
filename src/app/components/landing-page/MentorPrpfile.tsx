@@ -10,7 +10,7 @@ const MentorProfile = () => {
           Get Mentored From The Best
         </h1>
         <h2 className="text-gray-600 text-lg">
-          Get mentored by Dr. Lorem Ipsum in every step of your journey at
+          Get mentored by Dr. Noor Uddin Afzal in every step of your journey at
           Academically.
         </h2>
       </div>
