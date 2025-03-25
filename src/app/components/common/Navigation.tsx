@@ -141,12 +141,12 @@ function Navigation() {
       </nav>
       {/* Mobile Menu Open  */}
       <div
-        className={`fixed top-0 z-[1000] h-screen w-full transform bg-[#0c0514d7] backdrop-blur-3xl transition-all duration-300 ease-in-out lg:hidden ${
+        className={`fixed top-0 z-[1000] h-full w-full transform bg-[#FFF1FA] backdrop-blur-3xl transition-all duration-300 ease-in-out lg:hidden ${
           isMenuOpen ? "translate-y-0" : "-translate-y-full"
         }`}
       >
         <div
-          className={`fixed top-0 left-0 z-[1000] h-screen w-full bg-[#0c0514d7] backdrop-blur-3xl transform transition-all duration-300 ease-in-out lg:hidden ${
+          className={`fixed top-0 left-0 z-[1000] h-screen w-full bg-[#FFF1FA] backdrop-blur-3xl transform transition-all duration-300 ease-in-out lg:hidden ${
             isMenuOpen ? "translate-y-0" : "-translate-y-full"
           }`}
         >
@@ -154,7 +154,7 @@ function Navigation() {
             {navLinks.map(({ title, url }) => (
               <a
                 key={url}
-                className="text-white text-lg font-medium hover:text-gray-300 transition-colors"
+                className="text-black text-lg font-medium hover:text-gray-300 transition-colors"
                 onClick={() => handleNavigation(url)}
               >
                 {title}
