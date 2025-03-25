@@ -1,11 +1,20 @@
 import { FlipWords } from "@/components/ui/flip-words";
 
 const FlipWord = () => {
-  const words = ["Best Chance_", "Dearest Friend", "Worst Enemy", "Savior"];
+  const words = [
+    "Best Chance",
+    "Dearest Friend",
+    "Worst Enemy",
+    "Savior"
+  ];
   return (
     <div className="flex flex-row items-center justify-center overflow-hidden md:-my-[120px] mt-[60px] px-4">
       <h1 className="font-extrabold text-[20px] md:text-[60px] font-sans text-[#881414] text-center">
-      You Are Your Own , <FlipWords words={words} className="text-[#881414] underline" />
+        You Are Your Own ,{" "}
+        <FlipWords
+          words={words}
+          className="text-[#881414]  border-b-2 border-[#881414]"
+        />
       </h1>
     </div>
   );
