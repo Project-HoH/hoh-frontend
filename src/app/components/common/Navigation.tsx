@@ -44,7 +44,7 @@ function Navigation() {
       <nav className="fixed left-1/2 top-0 z-[11111] flex w-full max-w-[1440px] translate-x-[-50%] flex-row items-center justify-between overflow-hidden  px-4 py-4 transition-all duration-500 bg-white shadow-md">
         <ul className="'flex flex-row max-lg:hidden' w-full max-w-[300px] list-none items-center justify-between rounded-xl px-8">
           <li
-            className="flex items-center gap-2 cursor-pointer"
+            className="flex items-start -mx-[45px] gap-2 cursor-pointer"
             onClick={() => handleNavigation("/")}
           >
             <LogoSvg />
