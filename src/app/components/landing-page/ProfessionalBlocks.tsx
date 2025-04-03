@@ -25,9 +25,11 @@ const ProfessionalTiles = () => {
           Professional
         </div>
         <div className="absolute bottom-4 right-4">
+          <a href="/professional">
           <button className="bg-[#A41010] text-white px-4 py-2 rounded-lg hover:bg-red-700 transition-colors">
             Know more
           </button>
+          </a>
         </div>
       </div>
 

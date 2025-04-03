@@ -6,12 +6,14 @@ const FAQSection = () => {
 
   const faqs = [
     {
-      question: "What is Heroes of Humanity, and how does it support doctors and professionals?",
+      question:
+        "What is Heroes of Humanity, and how does it support doctors and professionals?",
       answer:
         "(Include a brief overview of your platform, its mission, and how it benefits medical professionals and other experts.) ",
     },
     {
-      question: "Who can join Heroes of Humanity, and what are the eligibility criteria?",
+      question:
+        "Who can join Heroes of Humanity, and what are the eligibility criteria?",
       answer:
         "(Explain whether it’s for doctors, healthcare workers, researchers, or other professionals, and if there are specific requirements to join.)",
     },
@@ -31,10 +33,10 @@ const FAQSection = () => {
         "(Clarify if it's free, has a membership fee, or offers premium plans.)",
     },
     {
-        question: "How can I contribute or support the initiative?",
-        answer:
-          "(Give information about donations, sponsorships, volunteering, or partnership opportunities.)",
-      },
+      question: "How can I contribute or support the initiative?",
+      answer:
+        "(Give information about donations, sponsorships, volunteering, or partnership opportunities.)",
+    },
   ];
 
   const toggleFAQ = (index: number) => {
@@ -51,7 +53,7 @@ const FAQSection = () => {
           <div key={index} className="border-none">
             <button
               onClick={() => toggleFAQ(index)}
-              className="w-full md:h-[85px] flex justify-between items-center bg-[#AD0080] text-white font-semibold md:text-[25px] font-sans px-4 py-3 rounded-lg "
+              className="w-full md:h-[50px] flex justify-between items-center bg-[#AD0080] text-white font-semibold md:text-[20px] font-sans px-4 py-3 rounded-lg "
             >
               <span>{faq.question}</span>
               <svg

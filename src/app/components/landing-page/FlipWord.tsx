@@ -8,8 +8,8 @@ const FlipWord = () => {
     "Savior"
   ];
   return (
-    <div className="flex flex-row items-center justify-center overflow-hidden md:-my-[120px] mt-[60px] px-4">
-      <h1 className="font-extrabold text-[20px] md:text-[60px] font-sans text-[#881414] text-center">
+    <div className="flex flex-row items-center justify-center overflow-hidden md:-my-[120px] mt-[30px] px-4">
+      <h1 className="font-extrabold text-[20px] md:text-[40px] font-sans text-[#881414] text-center">
         You Are Your Own ,{" "}
         <FlipWords
           words={words}
